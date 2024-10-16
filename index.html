@@ -1,15 +1,27 @@
 <!doctype html>
 <html>
 <head>
+    <script src="js/main.js" defer></script>
+<link rel="stylesheet" href="styles/mobile.css" /> 
+<link
+      rel="stylesheet"
+      href="styles/desktop.css"
+      media="only screen and (min-width : 720px)"
+    />
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
 <title>Your Name :: About Me</title>
 </head>
 <body>
 <div class="container">
 	<header>
             <div id="logo">
-                <h1><a href="#">Your Name</a></h1>
-        	</div>
+                <h1><a href="#">Your Name</a></h1> 
+            <div class="burger">    <!---create a "burger" menu-->
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -21,6 +33,10 @@
         </nav>
 	</header>
 	<main>
+        <div class="videoContainer">
+            <video src="media/horses.mp4" controls poster="images/horsePoster.jpg">
+            </video>
+             </div>
 		<section>
         <h2>Welcome</h2>
 			 <p><img src="images/dishOne.jpg" alt="Big Dish" width="900" height="200" class="resize-img"></p>

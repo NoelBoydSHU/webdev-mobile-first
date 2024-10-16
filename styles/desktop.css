@@ -42,6 +42,7 @@ main{
 }
 .section {
   /*flex: 1 1 auto;*/
+  
   padding: 0 10px 10px 0;
 }
 .left-float {
@@ -74,3 +75,30 @@ tr:nth-child(odd) {
   background-color: #ccc;
 }
 /* Form Styling Needs Adding */
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+form > div {
+  margin: 15px 0;
+  display: flex;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+}
+
+.submitContainer {
+  justify-content: flex-end;
+}
+input[type="submit"] {
+  width: auto;
+  margin: 0;
+}
+
+.burger { /*Hides the burger style menu thats for mobile only*/
+  display: none;
+}
